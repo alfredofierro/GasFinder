@@ -1,0 +1,70 @@
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registrar Gasolinera</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Josefin+Slab:100'>
+  <link rel="stylesheet" href="./style-fondo.css">
+</head>
+
+<body>
+<!-- partial:index.partial.html -->
+<div class="container"><img class="background" src="f.png"/>
+  <p class="message">Sección: Registro de Gasolinera<br>Gas Finder</p>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  </body>    
+  </div>
+
+
+  <form action="InsertarProductos.php" method="POST">
+  <div class="form">
+    <link rel="stylesheet" href="./style-form.css">    
+    <div class="title">Registrar Gasolinera</div>
+    <div class="subtitle">Complete el formulario.</div>
+    <div class="input-container ic1">
+      <input id="idproducto" name="idproducto" class="input" type="text" placeholder=" " />
+      <div class="cut"></div>
+      <label for="id" class="placeholder">Id Gasolinera</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="nombre" name="nombre" class="input" type="text" placeholder=" " />
+      <div class="cut"></div>
+      <label for="Descripcion" class="placeholder">Nombre de la Gasolinera</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="descripcion" name="descripcion" class="input" type="text" placeholder=" " />
+      <div class="cut"></div>
+      <label for="Descripcion" class="placeholder">Ubicacion</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="precio" name="precio"  class="input" type="text" placeholder=" " />
+      <div class="cut cut-short"></div>
+      <label for="Precio" class="placeholder">Precio de combustible regular </>
+    </div>
+    <div class="input-container ic2">
+      <input id="proveedor" name="proveedor"  class="input" type="text" placeholder=" " />
+      <div class="cut cut-short"></div>
+      <label for="proveedor" class="placeholder">Precio de combustible premium </>
+    </div>
+ 
+     <form action="InsertarProductos.php" method="POST">
+      <button type="text" class="submit">Registrar</button>
+    </form>
+
+    <form action="PanelAdmin.html" method="POST">
+      <button type="text" class="submit">Regresar</button>
+    </form>
+  </form>
+</html>
